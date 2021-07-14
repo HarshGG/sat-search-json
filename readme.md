@@ -1,6 +1,9 @@
 # SAT Scores JSON
 
-The `data.json` file in this project contains information on the SAT scores from schools in New York City in 2012. Your task is to perform data analysis on `data.json`. 
+Description: The `data.json` file in this project contains information on the SAT scores from schools in New York City in 2012. The program performs data analysis on `data.json`.<br>
+Language: Python<br>
+Project type: School project, collaborative<br>
+Purpose: Explore the vast capabilities of Python in handling and organizing data, use it to analyze data from JSON files<br> 
 
 The data came from [Data.gov](https://catalog.data.gov/dataset/sat-results-e88d7).
 
@@ -47,7 +50,7 @@ The `best_score_small` is the same as `best_score`, but should only consider sch
 
 ### X Most Tests
 
-`x_most_tests` should return an array of tuples containing the schools with the `x` most tests given in descending order. For example, if `x` is 10 then the method should return a 10 element list with the school giving the most tests in element 0, the school giving the 10th most tests in element 9, and the other going from 2nd to 9th in elements 1 through 8.
+`x_most_tests` returns an array of tuples containing the schools with the `x` most tests given in descending order. For example, if `x` is 10 then the method should return a 10 element list with the school giving the most tests in element 0, the school giving the 10th most tests in element 9, and the other going from 2nd to 9th in elements 1 through 8.
 
 ### X Highest Score
 
